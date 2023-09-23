@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Oasis</title>
+
+    <!--Font Awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!--Bootstrap cdn min.css link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+
+        <a href="#" class="logo"><i class="fas fa-heartbeat"></i> Mental Health <span>Oasis</span></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#consultants">Consultants</a>
+            <a href="#books">Books</a>
+            <a href="#services">OurServices</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#blogss">Blogs</a>
+            <a href="#about">About</a>
+        </nav>
+    
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+
+        <div class="image">
+            <img src="/assets/mental-health.png" alt="homeimage">
+        </div>
+
+        <div class="content">
+            <h3>Promoting Mental Health, in the Digital Age.</h3>
+            <p>In today's digital age is of paramount importance. The constant exposure to the screens, social media and online interactions can lead to stress and anxiety.It's crucial to promote mental well-being to maintain a healthy and balanced life in our digitally connected world. <br>Discover resources and tools to help you navigate the challenges of the digital world while maintaining your mental well-being.</p>
+            <button type="button" class="btn btn-success btn-lg">Get Started</button>
+        </div>
+    </section>
+    <!-- home section ends -->
+    <section class="articles">
+        <div class="slideshow-container">
+
+            <div class="mySlides">
+              <p>You spend your first few days on the job scanning reports, meeting new people, and reading about the various organizational goals with little breaks in between. At the end of each day, you feel dull and unable to absorb anything else. Both experiences are annoying. But if you can push your frustrations to the side and recognize that the fullness or dullness you’re feeling is actually information overload (a normal part of starting a job) then you can better manage it — and you should. When left unchecked, infoxication not only impacts your performance, but can cause stress-related problems....<a href="#https://hbr.org/2021/09/how-to-save-yourself-from-information-overload"><p class="author">Read More</p></a></p>
+              
+            </div>
+          
+            <div class="mySlides">
+              <p>The pressure to excel in our careers and share our successes on social media can be overwhelming. It’s no surprise that recent studies have shown we’re becoming increasingly unsatisfied and concerned about our future.We simply aren’t supposed to be good at everything — and that’s OK. But it’s one thing telling ourselves this and another genuinely believing it. So, what is the best way to deal with this pressure and embark on a healthier journey with social media?...<a href="https://www.vogue.co.uk/arts-and-lifestyle/article/reduce-social-media-pressure"><p class="author">Read More</p></a></p>
+              
+            </div>
+          
+            <div class="mySlides">
+              <p>Online abuse — from impersonation accounts to hateful slurs and death threats — began with the advent of the internet itself, but the problem is pervasive and growing.Remember, this is not your fault. Online abuse can elicit feelings of fear and shame. It is exhausting and demoralizing. It can do real and lasting damage to your mental, emotional, and physical health. Resist the urge to ignore how you’re feeling, and remember that people can be affected differently depending on their race, gender, sexuality, and experience....<a href="https://hbr.org/2020/06/youre-not-powerless-in-the-face-of-online-harassment"><p class="author">Read More</p></a> </p>
+              
+            </div>
+          
+            <!-- Next/prev buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          
+          <!-- Dots/bullets/indicators -->
+          <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+    </section>
+    <footer> 
+       <div class="footer">
+        <div class="support">
+            <p>Need Help?</p>
+            <p>Chat With Us</p>
+        </div>
+        <div class="social-media">
+            <a href="#"><p>Instagram</p></a>
+            <a href="#"><p>Facebook</p></a>
+            <a href="#"><p>twitter</p></a>
+        </div>
+       </div>
+        <p>&copy; 2023 Mental Health & Well-being App</p>
+    </footer>
+   
+
+    <!--Bootstrap js cdn link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!--Custom js link-->
+    <script src="./script.js"></script>
+</body>
+</html>
